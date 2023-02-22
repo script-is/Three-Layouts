@@ -1,0 +1,92 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0%;
+    margin: auto;
+}
+
+#container {
+    width: auto;
+    height: 100vh;
+    padding: 0%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    color: rgb(229, 79, 25);
+    background-color: #333;
+
+}
+
+#main-header {
+    height: 15%;
+    width: 100%;
+    border: solid 3px rgb(229, 79, 25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.swipe-sec {
+    height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.carsl-sec {
+    height: 100%;
+    width: 33.33%;
+    border: solid 3px rgb(229, 79, 25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.main-sec {
+    height: 45%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.article-sec {
+    height: 100%;
+    width: 50%;
+    border: solid 3px rgb(229, 79, 25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#main-footer {
+    height: 14%;
+    width: 100%;
+    border: solid 3px rgb(229, 79, 25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
